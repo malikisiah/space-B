@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <div className=" justify-start items-center">
             <Link href="/">
-              <span className=" text-xl ">
+              <span className=" text-xl">
                 {" "}
                 <div className={ds.className}> Space-B</div>
               </span>

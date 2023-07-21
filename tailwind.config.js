@@ -19,7 +19,7 @@ module.exports = {
   },
   daisyui: {
     themes: [
-      "luxury"
+      "luxury", "valentine"
     ],
   },
   plugins: [require("daisyui")],

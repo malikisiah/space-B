@@ -64,21 +64,31 @@ export default function Hero() {
 
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-      <section className="">
-        <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-content md:px-8 xl:flex">
+      <section className=" min-h-screen">
+        <div className="max-w-screen-xl mx-auto px-4 py-16 gap-12 text-content md:px-8 xl:flex">
           <div className="space-y-5 max-w-2xl mx-auto text-center xl:text-left">
             <div className="flex flex-wrap items-center justify-center gap-6 xl:justify-start">
               {features.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-x-2  text-sm">
+                <div
+                  key={idx}
+                  className="flex items-center gap-x-2  text-sm mx-auto"
+                >
                   {item.icon}
                   {item.name}
                 </div>
               ))}
             </div>
-            <div className={ds.className}>
-              <h1 className=" text-7xl pb-1 text-content font-extrabold mx-auto md:text-8xl pl-16 ">
+            <div className="w-auto h-96 mx-auto">
+              {/* <h1 className=" text-7xl pb-1 text-content font-extrabold mx-auto md:text-8xl pl-16 ">
                 Space-B
-              </h1>
+              </h1> */}
+              <Image
+                width={500}
+                height={500}
+                quality={100}
+                alt=""
+                src="/image.png"
+              />
             </div>
             <div className="card bg-base-200">
               <div className="space-y-1 card-body">
