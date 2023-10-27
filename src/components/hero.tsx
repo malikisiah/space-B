@@ -87,7 +87,7 @@ export default function Hero() {
                 height={500}
                 quality={100}
                 alt=""
-                src="/image.png"
+                src="/logo.png"
               />
             </div>
             <div className="card bg-base-200">
